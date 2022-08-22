@@ -9,6 +9,11 @@ pipeline {
                 echo 'clean workspace'
             }
         }
+        stage('croncheck') {
+            steps {
+                echo 'Cron Check'
+            }
+        }
         stage('gitinit') {
             steps {
                 echo 'git init'
