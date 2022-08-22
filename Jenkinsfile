@@ -15,7 +15,7 @@ pipeline {
         }
         stage('croncheck') {
             steps {
-                echo 'Cron Check #2'
+                echo 'Cron Check #3'
             }
         }
         stage('gitinit') {
